@@ -10,9 +10,15 @@ Sword::Sword( )
    durability = 14;
 }
 
-Sword::~Sword( )
-{  
+// Sword::~Sword( )
+// {  
 
+// }
+
+int Sword::decrementaStrength(){
+    int decrementa; 
+    decrementa = strength - 2;
+    return decrementa;
 }
 
 void Sword::print( ) const

@@ -5,7 +5,8 @@ class Sword
 {
 public:
     Sword();
-    ~Sword();
+    // ~Sword();
+    decrementaStrength();
 
     void print( ) const;
 
